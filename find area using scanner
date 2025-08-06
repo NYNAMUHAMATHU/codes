@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+      System.out.print("enter l:");
+        int l = scan.nextInt();
+       System.out.print("enter b:");
+        int b = scan.nextInt();
+        
+        int c=l*b;
+         System.out.println("area="+c);
+        
+        
+    }
+}
