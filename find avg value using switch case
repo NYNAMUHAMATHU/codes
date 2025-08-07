@@ -1,0 +1,77 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan=new Scanner(System.in);
+		System.out.print("enter tamil mark:");
+		int a=scan.nextInt();
+		System.out.print("enter english mark:");
+		int b=scan.nextInt();
+		System.out.print("enter maths mark:");
+		int c=scan.nextInt();
+		System.out.print("enter science mark:");
+		int d=scan.nextInt();
+		System.out.print("enter sst mark:");
+		int e=scan.nextInt();
+		int f=a+b+c+d+e;
+		float g=f/500;
+		float i=g*100;
+		int mark=0;
+		
+		if(100<=i){
+		     mark=1;
+		  }
+		else if(i<=80){
+		    mark=2;
+		}
+		else if(i<=70){
+		     mark=3;
+		}
+		else if(i<=50){
+		     mark=4;
+		}
+		else{
+		    System.out.print("fail");
+		}
+		
+		int h=mark;
+	
+		
+		switch(h){
+		    case 1:{
+		        System.out.print("A");
+		        break;
+		        
+		    }
+		   case 2:{
+		       System.out.print("B");
+		       break;
+		   }
+		   case 3:
+		       {
+		   System.out.print("c");
+		   break;
+		   }
+		   case 4:
+		       {
+		   System.out.print("d");
+		   break;
+		           
+		       }
+		   default:
+		   {
+		   System.out.print("fail");
+		   }
+		}
+		
+		
+		
+	}
+}
