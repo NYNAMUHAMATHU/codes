@@ -1,0 +1,76 @@
+
+import java.util.Scanner;
+public class Main
+
+
+{
+    public static void ajith(){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("enter the pas word:");
+        int ab=scan.nextInt();
+        if(ab==1234){
+        System.out.println("name is ajith");
+        }
+    }
+         public static void badman(){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("enter the pas word:");
+        int abc=scan.nextInt();
+        if(abc==12345){
+        System.out.println("name is badman");
+        }
+         }
+         public static void dom(){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("enter the pas word:");
+        int abcd=scan.nextInt();
+        if(abcd==12346){
+        System.out.println("name is dom");
+        }
+         }
+         public static void karthik(){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("enter the pas word:");
+        int abcde=scan.nextInt();
+        if(abcde==12347){
+        System.out.println("name is karthik");
+        System.out.println("mzcet codinetor");
+        System.out.println("cgpa 60%");
+        System.out.println("salary 70k");
+        
+        
+        }
+         }
+        
+    
+	public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("1 ajith,2 badman,3 dom,4 karthik");
+	int c=scan.nextInt();
+
+	switch(c){
+	    case 1:{
+	        ajith();
+	        break;
+	    }
+	    case 2:{
+	        badman();
+	        break;
+	    }
+	    case 3:{
+	        dom();
+	        break;
+	    }
+	    case 4:{
+	        karthik();
+	        break;
+	    }
+	    default:{
+	        System.out.println("miss maching");
+	    }
+	        
+	    
+	}	
+
+}
+}
