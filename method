@@ -1,0 +1,14 @@
+public class sample
+{
+    public void nyna(){
+        int a=90;
+        a=99;
+        System.out.println(a);
+    }
+	public static void main(String[] args) {
+	sample m=new sample();
+	m.nyna();
+		
+		
+	}
+}
