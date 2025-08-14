@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class sample{
+    
+	public static void main(String[] args) {
+	    StringBuffer sb=new StringBuffer("hello");
+	    sb.append("world");
+	      System.out.println("after :"+sb);
+	      sb.insert(5,"beautiful");
+	    System.out.println("after insert:"+sb);
+	    sb.reverse();
+	    System.out.println("after reverce:"+sb);
+	      
+	}}
