@@ -1,0 +1,85 @@
+
+import java.util.Scanner;
+public class sample
+{
+    public static void trapesoid(){
+        
+        Scanner scan=new Scanner(System.in);
+        System.out.print("enetr a:");
+         int a=scan.nextInt();
+         System.out.print("enetr b:");
+         int b=scan.nextInt();
+         System.out.print("enetr h:");
+         int h=scan.nextInt();
+         double c=0.5*(a+b)*h;
+         System.out.print("trapesoid="+c);
+         
+    }
+     public static void area(){
+         Scanner scan=new Scanner(System.in);
+        System.out.print("enetr a:");
+         int a=scan.nextInt();
+         System.out.print("enetr b:");
+         int b=scan.nextInt();
+         double c=3.14*a*b;
+         System.out.print("area="+c);
+         
+         
+     }
+     public static void sector(){
+         Scanner scan=new Scanner(System.in);
+        System.out.print("enetr r:");
+         int r=scan.nextInt();
+         System.out.print("enetr b:");
+         int b=scan.nextInt();
+         double c=0.5*r*r*b;
+         System.out.print("sector="+c);
+         
+         
+     }
+      public static void circle(){
+         Scanner scan=new Scanner(System.in);
+        System.out.print("enetr r:");
+         int r=scan.nextInt();
+         double c=3.14*r*r;
+         System.out.print("circle="+c);
+         
+         
+     }
+    
+	public static void main(String[] args) {
+     Scanner scan=new Scanner(System.in);
+     System.out.print("trapesoid 1:  elips 2: sector 3: circle 4:");
+     int aa=scan.nextInt();
+     switch(aa){
+         case 1:{
+             trapesoid();
+             break;
+         }
+         case 2:{
+             area();
+             break;
+             
+         }
+         case 3:{
+             sector();
+             break;
+             
+         }
+         case 4:{
+             circle();
+             break;
+             
+         }
+         default:
+         {
+             System.out.print("miss maching");
+         }
+         
+        
+             
+         
+     }
+		
+	}
+}
