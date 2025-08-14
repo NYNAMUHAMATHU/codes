@@ -1,0 +1,20 @@
+
+ class  NewClass {
+
+    
+    
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    NewClass n=new NewClass();
+	    System.out.println("hi");
+
+
+
+
+
+	}
+}
